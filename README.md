@@ -13,3 +13,21 @@ The application will be a hub to track and log your media consumption, it could 
 2. **Profile**
 3. **Add/Edit Screen**
 4. **Friends**
+
+### Navigation Diagram
+
+```
+                    ┌──────────────┐
+                    │     Home     │
+                    │    Screen    │
+                    └──────┬───────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+  ┌───────────┐     ┌──────────────┐    ┌───────────┐
+  │  Profile  │     │   Add/Edit   │    │  Friends  │
+  │           │     │    Screen    │    │           │
+  └───────────┘     └──────────────┘    └───────────┘
+
+```
