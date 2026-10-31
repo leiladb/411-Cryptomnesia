@@ -52,3 +52,4 @@ enum SampleData {
         Friend(name: "Taylor", recentActivity: "Watched Past Lives")
     ]
 }
+//code assisted by claude.ai
