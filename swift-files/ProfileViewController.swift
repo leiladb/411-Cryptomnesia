@@ -99,3 +99,4 @@ class ProfileViewController: UIViewController {
         goalProgress.progress = min(Float(items.count) / Float(yearlyGoal), 1)
     }
 }
+//code assisted by claude.ai
