@@ -55,3 +55,4 @@ class FriendsViewController: UIViewController, UITableViewDataSource, UITableVie
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
+//code assisted by claude.ai
