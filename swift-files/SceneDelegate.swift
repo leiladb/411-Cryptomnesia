@@ -1,0 +1,11 @@
+// Replace the scene(_:willConnectTo:options:) method in the SceneDelegate.swift
+// that Xcode generated with this version. Leave the rest of the file alone.
+
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    guard let windowScene = scene as? UIWindowScene else { return }
+    let window = UIWindow(windowScene: windowScene)
+    window.rootViewController = UINavigationController(rootViewController: HomeViewController())
+    window.makeKeyAndVisible()
+    self.window = window
+}
+//code assisted by claude.ai
