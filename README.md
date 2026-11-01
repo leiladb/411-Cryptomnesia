@@ -31,3 +31,7 @@ The application will be a hub to track and log your media consumption, it could 
   └───────────┘     └──────────────┘    └───────────┘
 
 ```
+
+
+### Screensots
+Screenshots of each screen running in the iOS Simulator are in the [screenshots](screenshots/) folder.
